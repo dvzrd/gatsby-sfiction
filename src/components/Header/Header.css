@@ -1,0 +1,45 @@
+.header {
+  padding: 0.83333em;
+}
+
+.header .logo.image {
+  position: absolute;
+  right: 0.83333em;
+  width: 3em;
+  height: 3em;
+}
+
+@media only screen and (min-width: 48em) {
+  .header .logo.image {
+    right: auto;
+    width: 6em;
+    height: 6em;
+  }
+}
+
+.header .title {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0.83333em;
+}
+
+@media only screen and (min-width: 48em) {
+  .header .title {
+    margin-top: 0.53333em;
+    margin-left: 3.43333em;
+  }
+}
+
+.header .title .sub {
+  display: block;
+  max-width: 85%;
+  padding-top: 0.17604em;
+  border-top: 0.17604em solid #9BCDDA;
+  font-size: 50%;
+}
+
+@media only screen and (min-width: 30em) {
+  .header .title .sub {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,39 @@
+.post.listing.figure {
+  margin: 0 auto;
+  padding: 0.83333em;
+}
+
+.post.listing.figure .list {
+  margin: 0;
+  margin-bottom: 4.83333em;
+  padding: 0;
+  list-style: none;
+}
+
+.post.listing.figure .list .item {
+  margin-bottom: 1.83333em;
+}
+
+.post.listing.figure .list .item .link {
+  text-decoration: none;
+}
+
+.post.listing.figure .list .item .title {
+  margin-bottom: 0.43333em;
+  transition: all 250ms;
+}
+
+.post.listing.figure .list .item .link:hover .title {
+  color: #9bcdda;
+}
+
+.post.listing.figure .list .item .title .sub {
+  display: block;
+  margin-top: 0.43333em;
+  color: #9bcdda;
+  font-size: 50%;
+}
+
+.post.listing.figure .list .item .excerpt {
+  color: #4c4c4c;
+}
