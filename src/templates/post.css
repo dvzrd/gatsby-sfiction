@@ -2,3 +2,9 @@
   margin: 0 auto;
   padding: 0.83333em;
 }
+
+.figure .title .sub {
+  display: block;
+  color: #00ccff;
+  font-size: 50%;
+}

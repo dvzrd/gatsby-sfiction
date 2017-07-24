@@ -28,7 +28,12 @@ export default class PostTemplate extends React.Component {
         <SEO postPath={slug} postNode={postNode} postSEO />
         <div className="post page">
           <figure className="article figure">
-            <h1 className="title">{post.title}</h1>
+            <h2 className="title">
+              {post.title}
+              <small className="sub">
+                {post.date}
+              </small>
+            </h2>
             <article className="article" dangerouslySetInnerHTML={{ __html: postNode.html }} />
           </figure>
           <PostTags tags={post.tags} />

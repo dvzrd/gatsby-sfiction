@@ -23,7 +23,7 @@ const options = {
   baseLineHeight: 1.5,
   headerColor: 'hsla(0,0%,0%,0.8)',
   bodyColor: 'hsla(0,0%,0%,0.7)',
-  blockMarginBottom: 0.75,
+  blockMarginBottom: 0.5,
   headerFontFamily: ['Exo', 'Arial', 'sans-serif'],
   bodyFontFamily: ['Yrsa', 'georgia', 'serif'],
   overrideStyles: () => {
@@ -32,6 +32,7 @@ const options = {
         overflowY: 'scroll',
       },
       'h1, h2, h3, h4, h5, h6': {
+        marginBottom: '0.83333em',
         lineHeight: 1.25,
       },
       a: {
