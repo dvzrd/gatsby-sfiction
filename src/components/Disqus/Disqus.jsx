@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactDisqusComments from 'react-disqus-comments';
 import config from '../../../data/SiteConfig';
+import './Disqus.css';
 
 class Disqus extends Component {
   constructor(props) {
@@ -27,14 +28,15 @@ class Disqus extends Component {
       return null;
     }
     return (
-      <ReactDisqusComments
-        shortname={config.disqusShortname}
-        identifier={post.id}
-        title={post.title}
-        url={post.url}
-        category_id={post.category_id}
-        onNewComment={this.notifyAboutComment}
-      />
+      <figure className="comments figure">
+        <ReactDisqusComments className="disqus"
+                             shortname={config.disqusShortname}
+                             identifier={post.id}
+                             title={post.title}
+                             url={post.url}
+                             category_id={post.category_id}
+                             onNewComment={this.notifyAboutComment} />
+      </figure>
     );
   }
 }

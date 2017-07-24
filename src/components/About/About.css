@@ -1,7 +1,40 @@
-.about {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    min-height: 300px;
+.about.figure {
+  margin: 0 auto;
+  margin-bottom: 0.833333em;
+  padding: 0.83333em 0;
+  border: 0.17604em solid #00ccff;
+  border-left: 0;
+  border-right: 0;
+}
+
+@media only screen and (min-width: 48em) {
+  .about.figure {
+    padding: 0.83333em;
+  }
+}
+
+.about.figure .image {
+  width: 100%;
+  margin: 0;
+  margin-top: -0.2em;
+}
+
+@media only screen and (min-width: 48em) {
+  .about.figure .image {
+    position: absolute;
+    max-width: 6.83333em;
+  }
+}
+
+.about.figure .description {
+  margin: 0;
+  margin-top: 0.43333em;
+}
+
+@media only screen and (min-width: 48em) {
+  .about.figure .description {
+    display: inline-block;
+    max-width: 32em;
+    margin-left: 7.83333em;
+  }
 }

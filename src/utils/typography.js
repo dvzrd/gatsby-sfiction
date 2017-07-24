@@ -35,14 +35,14 @@ const options = {
         lineHeight: 1.25,
       },
       a: {
-        color: '#3897f0',
+        color: '#00ccff',
         fontSize: 'inerit',
         fontWeight: 'inherit',
         textDecoration: 'none',
         transition: 'color 250ms'
       },
       'a:hover': {
-        color: '#3897f1',
+        color: '#00d8ff',
         textDecoration: 'underline'
       },
       hr: {

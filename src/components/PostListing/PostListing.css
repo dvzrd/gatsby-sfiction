@@ -5,7 +5,6 @@
 
 .post.listing.figure .list {
   margin: 0;
-  margin-bottom: 4.83333em;
   padding: 0;
   list-style: none;
 }
@@ -24,13 +23,12 @@
 }
 
 .post.listing.figure .list .item .link:hover .title {
-  color: #9bcdda;
+  color: #00ccff;
 }
 
 .post.listing.figure .list .item .title .sub {
   display: block;
-  margin-top: 0.43333em;
-  color: #9bcdda;
+  color: #00ccff;
   font-size: 50%;
 }
 

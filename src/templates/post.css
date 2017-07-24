@@ -1,5 +1,4 @@
-.post-meta {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.figure {
+  margin: 0 auto;
+  padding: 0.83333em;
 }

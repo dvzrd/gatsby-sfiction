@@ -5,13 +5,13 @@ class UserLinks extends Component {
   getLinkElements() {
     const { userLinks } = this.props.config;
     const { labeled } = this.props;
-    return userLinks.map(link =>
-      (<button
-        key={link.label}
-        href={link.url}
-      >
+    return userLinks.map(link => (
+      <button className="button"
+              key={link.label}
+              href={link.url}>
         {labeled ? link.label : ''}
-      </button>));
+      </button>
+    ));
   }
   render() {
     const { userLinks } = this.props.config;
@@ -19,11 +19,9 @@ class UserLinks extends Component {
       return null;
     }
     return (
-      <div className="user-links">
-        {
-          this.getLinkElements()
-        }
-      </div>
+      <figure className="user links">
+        { this.getLinkElements() }
+      </figure>
     );
   }
 }
