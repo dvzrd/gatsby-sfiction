@@ -28,7 +28,7 @@
 
 @media only screen and (min-width: 48em) {
   .header .title {
-    margin-top: 0.53333em;
+    margin-top: 0.43333em;
     margin-left: 3.43333em;
   }
 }
@@ -36,7 +36,7 @@
 .header .title .sub {
   display: block;
   max-width: 85%;
-  padding-top: 0.17604em;
+  padding-top: 0.433333em;
   border-top: 0.17604em solid #00ccff;
   font-size: 50%;
   text-transform: initial;
