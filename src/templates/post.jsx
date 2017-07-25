@@ -4,6 +4,7 @@ import Helmet from 'react-helmet';
 import Link from 'gatsby-link';
 import Disqus from '../components/Disqus/Disqus';
 import PostTags from '../components/PostTags/PostTags';
+import PostNavigation from '../components/PostNavigation/PostNavigation';
 import SocialLinks from '../components/SocialLinks/SocialLinks';
 import SEO from '../components/SEO/SEO';
 import config from '../../data/SiteConfig';
@@ -42,6 +43,7 @@ export default class PostTemplate extends React.Component {
             <article className="article" dangerouslySetInnerHTML={{ __html: postNode.html }} />
           </figure>
           <PostTags tags={post.tags} />
+          <PostNavigation previous={post.previous} next={post.next} />
           <SocialLinks postPath={slug} postNode={postNode} />
           <Disqus post={post} />
         </div>
@@ -63,6 +65,8 @@ query BlogPostBySlug($slug: String!) {
       date
       category
       tags
+      previous
+      next
     }
   }
 }
