@@ -36,7 +36,6 @@ query TagPage($tag: String) {
           frontmatter {
             title
             tags
-            cover
             date
           }
         }

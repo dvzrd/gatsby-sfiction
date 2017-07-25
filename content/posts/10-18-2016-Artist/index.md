@@ -4,9 +4,11 @@ date: "10/18/2016"
 previous: "unplugged"
 next: "elevator"
 slug: "artist"
+category: "Speculative Fiction"
 tags:
   - fantasy
   - scifi
+  - history
 ---
 
 He sits on the floor by the fire with a flat stone full of red. His eyes gleaming with hope, he prepares to create another enchantment.

@@ -4,6 +4,7 @@ date: "07/31/2016"
 previous: "echoes"
 next: "museum"
 slug: "container"
+category: "Science Fiction"
 tags:
   - scifi
   - horror

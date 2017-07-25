@@ -56,7 +56,6 @@ query BlogPostBySlug($slug: String!) {
     excerpt
     frontmatter {
       title
-      cover
       date
       category
       tags

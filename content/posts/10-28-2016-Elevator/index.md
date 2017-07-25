@@ -4,6 +4,7 @@ date: "10/28/2016"
 previous: "artist"
 next: "terminal"
 slug: "elevator"
+category: "Horror"
 tags:
   - horror
   - scifi

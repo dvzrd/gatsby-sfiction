@@ -47,8 +47,8 @@ const options = {
         textDecoration: 'underline'
       },
       hr: {
-        margin: '25vh auto',
-        width: '4.83333em',
+        margin: '4.83333em auto',
+        width: '8.83333em',
         background: '#e0e0e0'
       }
     }

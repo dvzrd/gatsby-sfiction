@@ -4,6 +4,7 @@ date: "08/14/2016"
 previous: "container"
 next: "games"
 slug: "museum"
+category: "Science Fiction"
 tags:
   - scifi
   - horror

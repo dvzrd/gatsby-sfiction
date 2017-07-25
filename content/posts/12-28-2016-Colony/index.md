@@ -4,6 +4,7 @@ date: "12/28/2016"
 previous: "specter"
 next: "jazzman"
 slug: "colony"
+category: "Science Fiction"
 tags:
   - scifi
 ---

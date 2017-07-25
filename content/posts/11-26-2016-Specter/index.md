@@ -4,6 +4,7 @@ date: "11/26/2016"
 previous: "terminal"
 next: "colony"
 slug: "specter"
+category: "Science Fiction"
 tags:
   - horror
   - scifi

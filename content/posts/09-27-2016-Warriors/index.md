@@ -1,11 +1,14 @@
 ---
 title: "Warriors"
-date: "09/25/2016"
+date: "09/27/2016"
 previous: "key"
 next: "unplugged"
 slug: "warriors"
+category: "Fantasy"
 tags:
   - fantasy
+  - military
+  - politics
 ---
 
 "Which one is the wisest warrior?"

@@ -4,6 +4,7 @@ date: "07/30/2016"
 previous: "volume"
 next: "container"
 slug: "echoes"
+category: "Science Fiction"
 tags:
   - scifi
   - horror

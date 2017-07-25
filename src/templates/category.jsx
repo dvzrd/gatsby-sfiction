@@ -37,7 +37,6 @@ query CategoryPage($category: String) {
           frontmatter {
             title
             tags
-            cover
             date
           }
         }

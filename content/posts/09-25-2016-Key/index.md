@@ -4,8 +4,10 @@ date: "09/25/2016"
 previous: "games"
 next: "warriors"
 slug: "key"
+category: "Science Fiction"
 tags:
   - scifi
+  - AI
 ---
 
 Breathing became a challenge in the thick and heavy rain.

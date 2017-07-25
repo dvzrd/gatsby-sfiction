@@ -4,9 +4,11 @@ date: "03/29/2017"
 previous: "template"
 next: "echoes"
 slug: "volume"
+category: "Science Fiction"
 tags:
   - scifi
   - horror
+  - dystopian
 ---
 
 I just wanted things to go back to normal.

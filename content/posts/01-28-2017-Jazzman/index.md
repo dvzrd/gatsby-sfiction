@@ -4,8 +4,11 @@ date: "01/28/2017"
 previous: "colony"
 next: "template"
 slug: "jazzman"
+category: "Free Writing"
 tags:
-  - free writing
+  - mystery
+  - noir
+  - detective
 ---
 
 Making his passage known, Jazzman wiggled through the street like rubber. With a grin bigger than a slit cheek, eyes burning the lens of the security camera, transforming live footage into static.

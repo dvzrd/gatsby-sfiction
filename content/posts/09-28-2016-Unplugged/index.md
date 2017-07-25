@@ -4,8 +4,9 @@ date: "09/28/2016"
 previous: "warriors"
 next: "artist"
 slug: "unplugged"
+category: "Free Writing"
 tags:
-  - free writing
+  - philosophy
 ---
 
 A man once flooded with entertainment is found hopelessly lost when unplugged. Tossing and turning, restless in his bed, turning the pages of a book that he has no interest in other than passing the time.

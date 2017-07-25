@@ -4,9 +4,11 @@ date: "02/26/2017"
 previous: "jazzman"
 next: "volume"
 slug: "template"
+category: "Science Fiction"
 tags:
   - scifi
   - horror
+  - AI
 ---
 
 "Rondelle, they just sent us a new template."

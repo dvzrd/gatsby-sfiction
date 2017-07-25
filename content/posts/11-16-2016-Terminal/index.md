@@ -4,6 +4,7 @@ date: "11/16/2016"
 previous: "elevator"
 next: "specter"
 slug: "terminal"
+category: "Science Fiction"
 tags:
   - horror
   - scifi

@@ -33,6 +33,7 @@
     "react-share": "^1.15.0",
     "react-twitter-widgets": "^1.4.0",
     "react-typography": "^0.15.10",
+    "safe-access": "^0.1.0",
     "typography": "^0.15.12"
   },
   "devDependencies": {

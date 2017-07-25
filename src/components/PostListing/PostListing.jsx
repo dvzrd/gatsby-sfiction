@@ -1,4 +1,6 @@
 import React from 'react';
+import sortBy from 'lodash/sortBy';
+import access from 'safe-access';
 import Link from 'gatsby-link';
 import './PostListing.css';
 
@@ -21,6 +23,9 @@ class PostListing extends React.Component {
 
   render() {
     const postList = this.getPostList();
+    
+    console.log(sortBy(postList, (post) => access(post, 'date')).reverse());
+
     return (
       <figure className="post listing figure">
         <ul className="list">

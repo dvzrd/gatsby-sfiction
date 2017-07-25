@@ -4,8 +4,10 @@ date: "09/17/2016"
 previous: "museum"
 next: "key"
 slug: "games"
+category: "Horror"
 tags:
   - horror
+  - mystery
 ---
 
 Even counting steps became a game.
