@@ -10,7 +10,7 @@ class About extends Component {
     return (
       <figure className="about figure">
         <a className="link"
-           href="https://www.youtube.com/watch?v=KFI_Fl1sRWg"
+           href="http://damirvazgird.com/about/"
            target="_blank">
           <img className="image" src={image} />
         </a>

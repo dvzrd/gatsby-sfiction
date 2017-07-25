@@ -1,6 +1,4 @@
 import React from 'react';
-import { sortBy } from 'lodash';
-import access from 'safe-access';
 import Link from 'gatsby-link';
 import './PostListing.css';
 

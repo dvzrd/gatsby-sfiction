@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import _ from 'lodash';
 import Link from 'gatsby-link';
+import './PostTags.css';
 
 class PostTags extends Component {
   render() {
@@ -8,7 +9,7 @@ class PostTags extends Component {
     return (
       <div className="post tags figure">
         {tags && tags.map(tag => (
-          <Link className="button"
+          <Link className="tag button"
                 key={tag}
                 to={`/tags/${_.kebabCase(tag)}`}>
             {tag}
