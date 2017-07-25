@@ -1,6 +1,6 @@
 ---
 title: "Container"
-date: "07/31/2016"
+date: "2016.07.31"
 previous: "echoes"
 next: "museum"
 slug: "container"

@@ -1,6 +1,6 @@
 ---
 title: "Unplugged"
-date: "09/28/2016"
+date: "2016.09.28"
 previous: "warriors"
 next: "artist"
 slug: "unplugged"

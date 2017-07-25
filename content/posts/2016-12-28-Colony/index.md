@@ -1,6 +1,6 @@
 ---
 title: "Colony"
-date: "12/28/2016"
+date: "2016.12.28"
 previous: "specter"
 next: "jazzman"
 slug: "colony"

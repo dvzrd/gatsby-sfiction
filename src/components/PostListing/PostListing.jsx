@@ -17,14 +17,13 @@ class PostListing extends React.Component {
         excerpt: postEdge.node.excerpt,
         timeToRead: postEdge.node.timeToRead,
       });
+
     });
     return postList;
   }
 
   render() {
     const postList = this.getPostList();
-
-    console.log(sortBy(postList, (post) => access(post, 'date')).reverse());
 
     return (
       <figure className="post listing figure">

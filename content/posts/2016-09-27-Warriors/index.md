@@ -1,6 +1,6 @@
 ---
 title: "Warriors"
-date: "09/27/2016"
+date: "2016.09.27"
 previous: "key"
 next: "unplugged"
 slug: "warriors"

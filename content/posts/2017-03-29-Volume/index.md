@@ -1,6 +1,6 @@
 ---
 title: "Volume"
-date: "03/29/2017"
+date: "2017.03.29"
 previous: "template"
 next: "echoes"
 slug: "volume"

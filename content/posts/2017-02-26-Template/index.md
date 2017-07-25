@@ -1,6 +1,6 @@
 ---
 title: "Template"
-date: "02/26/2017"
+date: "2017.02.26"
 previous: "jazzman"
 next: "volume"
 slug: "template"

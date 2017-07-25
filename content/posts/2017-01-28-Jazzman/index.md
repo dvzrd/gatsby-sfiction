@@ -1,6 +1,6 @@
 ---
 title: "Jazzman"
-date: "01/28/2017"
+date: "2017.01.28"
 previous: "colony"
 next: "template"
 slug: "jazzman"

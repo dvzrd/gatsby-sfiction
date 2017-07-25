@@ -1,6 +1,6 @@
 ---
 title: "Terminal"
-date: "11/16/2016"
+date: "2016.11.16"
 previous: "elevator"
 next: "specter"
 slug: "terminal"

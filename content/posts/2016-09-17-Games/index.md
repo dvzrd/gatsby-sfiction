@@ -1,6 +1,6 @@
 ---
 title: "Games"
-date: "09/17/2016"
+date: "2016.09.17"
 previous: "museum"
 next: "key"
 slug: "games"

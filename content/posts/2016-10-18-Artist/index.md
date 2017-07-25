@@ -1,6 +1,6 @@
 ---
 title: "Artist"
-date: "10/18/2016"
+date: "2016.10.18"
 previous: "unplugged"
 next: "elevator"
 slug: "artist"

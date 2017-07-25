@@ -9,7 +9,6 @@ export default class CategoryTemplate extends React.Component {
     const category = this.props.pathContext.category;
     const postEdges = this.props.data.allMarkdownRemark.edges;
 
-    console.log(postEdges);
     return (
       <div className="category template">
         <Helmet title={`Posts in category "${category}" | ${config.siteTitle}`} />
