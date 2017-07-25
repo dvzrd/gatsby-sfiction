@@ -1,6 +1,6 @@
 module.exports = {
   blogPostDir: 'posts', // The name of directory that contains your posts.
-  siteTitle: 'damir.io', // Site title.
+  siteTitle: 'Damir.io', // Site title.
   siteTitleAlt: 'SFiction', // Alternative site title for SEO.
   siteLogo: '/logos/logo-1024.png', // Logo used for SEO and manifest.
   siteUrl: 'http://damir.io', // Domain of your website without pathPrefix.

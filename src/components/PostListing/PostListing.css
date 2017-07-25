@@ -18,6 +18,7 @@
 }
 
 .post.listing.figure .list .item .title {
+  margin: 0;
   margin-bottom: 0.43333em;
   transition: all 250ms;
 }
@@ -28,6 +29,7 @@
 
 .post.listing.figure .list .item .title .sub {
   display: block;
+  border: 0;
   color: #00ccff;
   font-size: 50%;
 }

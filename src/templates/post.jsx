@@ -1,5 +1,7 @@
+import _ from 'lodash';
 import React from 'react';
 import Helmet from 'react-helmet';
+import Link from 'gatsby-link';
 import UserInfo from '../components/UserInfo/UserInfo';
 import Disqus from '../components/Disqus/Disqus';
 import PostTags from '../components/PostTags/PostTags';
@@ -28,12 +30,16 @@ export default class PostTemplate extends React.Component {
         <SEO postPath={slug} postNode={postNode} postSEO />
         <div className="post page">
           <figure className="article figure">
-            <h2 className="title">
+            <h1 className="title">
               {post.title}
               <small className="sub">
                 {post.date}
               </small>
-            </h2>
+              <Link className="category link"
+                    to={`/categories/${_.kebabCase(post.category)}`}>
+                {post.category}
+              </Link>
+            </h1>
             <article className="article" dangerouslySetInnerHTML={{ __html: postNode.html }} />
           </figure>
           <PostTags tags={post.tags} />

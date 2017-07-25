@@ -35,6 +35,7 @@ export const pageQuery = graphql`
           timeToRead
           frontmatter {
             title
+            category
             tags
             date
           }

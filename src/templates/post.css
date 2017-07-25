@@ -3,8 +3,38 @@
   padding: 0.83333em;
 }
 
-.figure .title .sub {
+.template .figure .title {
+  margin-top: -0.34333em;
+  margin-bottom: 1.83333em;
+}
+
+@media only screen and (min-width: 48em) {
+  .template .figure .title {
+    margin-left: 3.43333em;
+  }
+}
+
+.template .figure .title .sub {
   display: block;
-  color: #00ccff;
+  padding-top: 0.17604em;
+  border-top: 0.17604em solid #00ccff;
+  color: #333;
   font-size: 50%;
+}
+
+.template .figure .title .category {
+  position: absolute;
+  top: 1.63333em;
+  right: 0.43333em;
+  padding: 0.25em;
+  border: solid #00ccff;
+  background-color: #fff;
+  font-size: 50%;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.template .figure .title .category:hover {
+  background-color: #00ccff;
+  color: #fff;
 }

@@ -33,18 +33,19 @@ export default class MainLayout extends React.Component {
     return title;
   }
   render() {
-    const { children } = this.props;
+    const { location, children } = this.props;
+
     return (
       <div className="layout">
         <Helmet>
           <title>{`${config.siteTitle} |  ${this.getLocalTitle()}`}</title>
           <meta name="description" content={config.siteDescription} />
         </Helmet>
-        <Header />
+        <Header location={location} />
         <main className="main">
           {children()}
         </main>
-        <Footer />
+        <Footer location={location} />
       </div>
     );
   }

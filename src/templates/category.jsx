@@ -2,16 +2,23 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import PostListing from '../components/PostListing/PostListing';
 import config from '../../data/SiteConfig';
-
+import './category.css';
 
 export default class CategoryTemplate extends React.Component {
   render() {
     const category = this.props.pathContext.category;
     const postEdges = this.props.data.allMarkdownRemark.edges;
+
+    console.log(postEdges);
     return (
-      <div className="category-container">
+      <div className="category template">
         <Helmet title={`Posts in category "${category}" | ${config.siteTitle}`} />
-        <PostListing postEdges={postEdges} />
+        <div className="post page">
+          <figure className="title figure">
+            <h1 className="title">Category</h1>
+          </figure>
+          <PostListing postEdges={postEdges} />
+        </div>
       </div>
 
     );
@@ -37,6 +44,7 @@ query CategoryPage($category: String) {
           frontmatter {
             title
             tags
+            category
             date
           }
         }

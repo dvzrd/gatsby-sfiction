@@ -1,5 +1,5 @@
 import React from 'react';
-import sortBy from 'lodash/sortBy';
+import { sortBy } from 'lodash';
 import access from 'safe-access';
 import Link from 'gatsby-link';
 import './PostListing.css';
@@ -11,7 +11,7 @@ class PostListing extends React.Component {
       postList.push({
         path: postEdge.node.fields.slug,
         tags: postEdge.node.frontmatter.tags,
-        cover: postEdge.node.frontmatter.cover,
+        category: postEdge.node.frontmatter.category,
         title: postEdge.node.frontmatter.title,
         date: postEdge.node.frontmatter.date,
         excerpt: postEdge.node.excerpt,
@@ -23,7 +23,7 @@ class PostListing extends React.Component {
 
   render() {
     const postList = this.getPostList();
-    
+
     console.log(sortBy(postList, (post) => access(post, 'date')).reverse());
 
     return (

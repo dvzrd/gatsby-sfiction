@@ -32,6 +32,7 @@ const options = {
         overflowY: 'scroll',
       },
       'h1, h2, h3, h4, h5, h6': {
+        position: 'relative',
         marginBottom: '0.83333em',
         lineHeight: 1.25,
       },

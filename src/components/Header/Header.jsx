@@ -5,21 +5,37 @@ import './Header.css';
 
 class Header extends Component {
   render() {
-    return (
-      <header className="header">
-        <Link className="link"
-              to="/">
-          <img className="logo image" src={config.siteLogo} />
+    const { location } = this.props;
 
-          <h1 className="title">
-            {config.siteTitle}
-            <small className="sub description">
-              {config.siteDescription}
-            </small>
-          </h1>
-        </Link>
-      </header>
-    );
+    let header;
+
+    if (location.pathname === '/') {
+      header = (
+        <header className="index header">
+          <Link className="link"
+                to="/">
+            <img className="logo image" src={config.siteLogo} />
+            <h1 className="title">
+              {config.siteTitle}
+              <small className="sub description">
+                {config.siteDescription}
+              </small>
+            </h1>
+          </Link>
+        </header>
+      );
+    } else {
+      header = (
+        <header className="header">
+          <Link className="link"
+                to="/">
+            <img className="logo image" src={config.siteLogo} />
+          </Link>
+        </header>
+      );
+    }
+
+    return header;
   }
 }
 
