@@ -8,7 +8,7 @@ category: "Science Fiction"
 tags:
   - scifi
   - horror
-  - AI
+  - ai
 ---
 
 "Rondelle, they just sent us a new template."

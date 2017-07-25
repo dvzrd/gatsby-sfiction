@@ -1,0 +1,90 @@
+.post.navigation.figure {
+  margin-top: 0.83333em;
+}
+
+.post.navigation.figure .link {
+  position: relative;
+  font-family: 'Exo','Arial','sans-serif';
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 1;
+  transition: all 250ms ease;
+}
+
+.post.navigation.figure .link.previous {
+  margin-left: 1.5em;
+}
+
+.post.navigation.figure .link.previous:hover {
+  margin-left: 0;
+}
+
+.post.navigation.figure .link.next {
+  float: right;
+  margin-right: 1.5em;
+}
+
+.post.navigation.figure .link.next:hover {
+  margin-right: 0;
+}
+
+.post.navigation.figure .link .arrow {
+  position: absolute;
+	top: 50%;
+	width: 1.5em;
+	height: 1.5em;
+	background: transparent;
+	border-top: .15em solid #00ccff;
+	border-right: .15em solid #00ccff;
+	box-shadow: 0 0 0 #333;
+	transition: all 250ms ease;
+}
+
+.post.navigation.figure .link:hover .arrow {
+  border-top: .15rem solid #00ccff;
+	border-right: .15rem solid #00ccff;
+	box-shadow: .15em -.15rem 0 #333;
+}
+
+.post.navigation.figure .link .arrow.left {
+  left: -1.5em;
+	transform: translate3d(0,-50%,0) rotate(-135deg);
+}
+
+.post.navigation.figure .link:hover .arrow.left {
+  left: -2em;
+}
+
+.post.navigation.figure .link .arrow.right {
+  right: -1.5em;
+	transform: translate3d(0,-50%,0) rotate(45deg);
+}
+
+.post.navigation.figure .link:hover .arrow.right {
+  right: -2em;
+}
+
+.post.navigation.figure .link .label {
+  position: absolute;
+  top: -0.75em;
+  right: -0.5em;
+  color: #333;
+  font-size: 50%;
+  font-weight: normal;
+  transition: all 250ms ease;
+}
+
+.post.navigation.figure .link:hover .label {
+  right: -1.5em;
+}
+
+.post.navigation.figure .link.next .label {
+  top: -1em;
+  right: auto;
+  left: -0.5em;
+}
+
+.post.navigation.figure .link.next:hover .label {
+  left: -1.5em;
+}

@@ -7,7 +7,7 @@ class PostTags extends Component {
   render() {
     const { tags } = this.props;
     return (
-      <div className="post tags figure">
+      <figure className="post tags figure">
         {tags && tags.map(tag => (
           <Link className="tag button"
                 key={tag}
@@ -15,7 +15,7 @@ class PostTags extends Component {
             {tag}
           </Link>
         ))}
-      </div>
+      </figure>
 
     );
   }

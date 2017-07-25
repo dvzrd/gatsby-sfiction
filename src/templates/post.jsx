@@ -44,8 +44,8 @@ export default class PostTemplate extends React.Component {
           </figure>
           <PostTags tags={post.tags} />
           <PostNavigation previous={post.previous} next={post.next} />
-          <SocialLinks postPath={slug} postNode={postNode} />
           <Disqus post={post} />
+          <SocialLinks postPath={slug} postNode={postNode} />
         </div>
       </div>
 

@@ -1,17 +1,18 @@
-.social-links {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    margin: 15px 0;
+.social.links.figure {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 0.83333em;
 }
 
-.social-links > div {
-    margin: 5px 15px;
+.social.links.figure > div {
+  margin: 0 1em;
+  cursor: pointer;
 }
 
 .share-count {
-    text-align: center;
+  text-align: center;
 }

@@ -9,7 +9,10 @@
   border: solid #00ccff;
   background-color: #00ccff;
   color: #fff;
+  font-family: 'Exo','Arial','sans-serif';
+  font-size: 75%;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .post.tags.figure .tag.button:hover {

@@ -33,7 +33,7 @@ class SocialLinks extends Component {
     const filter = count => (count > 0 ? count : '');
 
     return (
-      <div className="social-links">
+      <figure className="social links figure">
         <RedditShareButton
           url={url}
           title={post.title}
@@ -78,7 +78,7 @@ class SocialLinks extends Component {
         <TelegramShareButton url={url}>
           <TelegramIcon round size={iconSize} />
         </TelegramShareButton>
-      </div>
+      </figure>
     );
   }
 }
