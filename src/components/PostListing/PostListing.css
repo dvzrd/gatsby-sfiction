@@ -21,6 +21,7 @@
   margin: 0;
   margin-bottom: 0.43333em;
   transition: all 250ms;
+  text-transform: initial;
 }
 
 .post.listing.figure .list .item .link:hover .title {

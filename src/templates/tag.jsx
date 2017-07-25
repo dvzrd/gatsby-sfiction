@@ -2,16 +2,21 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import PostListing from '../components/PostListing/PostListing';
 import config from '../../data/SiteConfig';
+import './tag.css';
 
 export default class TagTemplate extends React.Component {
   render() {
     const tag = this.props.pathContext.tag;
     const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
-      <div className="tag-container">
-
+      <div className="tag template">
         <Helmet title={`Posts tagged as "${tag}" | ${config.siteTitle}`} />
-        <PostListing postEdges={postEdges} />
+        <div className="tag page">
+          <figure className="title figure">
+            <h1 className="title">{tag}</h1>
+          </figure>
+          <PostListing postEdges={postEdges} />
+        </div>
       </div>
     );
   }

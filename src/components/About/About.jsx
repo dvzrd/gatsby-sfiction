@@ -10,7 +10,7 @@ class About extends Component {
       <figure className="about figure">
         <img className="image" src={image} />
         <p className="description">
-          <a className="link" href="http://damirvazgird.com" target="_blank">Damir Vazgird</a> is an NYC based developer, designer, and artist currently working on a <a className="link" href="http://novabook.co" target="_blank">graphic-novel</a>. You can follow him on <a className="link" href="https://twitter.com/dvazgird" target="_blank">Twitter</a>, <a className="link" href="https://www.instagram.com/dvzrd/" target="_blank">Instagram</a>, and <a className="link" href="https://github.com/dvzrd" target="_blank">Github</a>.
+          Damir Vazgird is an NYC based <a className="link" href="http://damirvazgird.com" target="_blank">developer</a>, <a className="link" href="http://damir.graphics" target="_blank">designer</a>, and <a className="link" href="http://damir.gallery" target="_blank">artist</a> currently working on a <a className="link" href="http://novabook.co" target="_blank">digital graphic novel</a>.
         </p>
       </figure>
     );

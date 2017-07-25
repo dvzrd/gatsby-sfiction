@@ -1,9 +1,9 @@
-.category.template .figure .title {
+.tag.template .figure .title {
   margin-bottom: 1.133333em;
 }
 
 @media only screen and (min-width: 48em) {
-  .category.template .figure .title {
+  .tag.template .figure .title {
     margin-top: 0.133333em;
   }
 }

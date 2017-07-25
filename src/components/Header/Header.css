@@ -8,6 +8,7 @@
   width: 3em;
   height: 3em;
   margin: 0;
+  z-index: 1;
 }
 
 @media only screen and (min-width: 48em) {
@@ -22,6 +23,7 @@
   display: inline-block;
   margin-top: 0;
   margin-bottom: 0.83333em;
+  text-transform: uppercase;
 }
 
 @media only screen and (min-width: 48em) {
@@ -37,6 +39,7 @@
   padding-top: 0.17604em;
   border-top: 0.17604em solid #00ccff;
   font-size: 50%;
+  text-transform: initial;
 }
 
 @media only screen and (min-width: 30em) {

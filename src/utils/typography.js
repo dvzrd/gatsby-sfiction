@@ -35,6 +35,7 @@ const options = {
         position: 'relative',
         marginBottom: '0.83333em',
         lineHeight: 1.25,
+        textTransform: 'uppercase'
       },
       a: {
         color: '#00ccff',
