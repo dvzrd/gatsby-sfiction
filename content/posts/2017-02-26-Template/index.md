@@ -321,4 +321,4 @@ Lorvelle thought about his colleague's suggestion and decided to take his advice
 
 He was afraid that he might have helped to create something beyond human and it's task was to guide children toward a new future. He couldn't understand how such an imperfect template was able to create such a perfect teacher. After all, that template had terrible, dark desires imprinted inside it's core, it's offensive lust for young children was ironically abstracted into a desire to teach them.
 
-They took every measure to avoid those undesirable traits from surfacing in the android's personality, he only hope was that their measures continue to function just as flawlessly as the simulations predicted.
+They took every measure to avoid those undesirable traits from surfacing in the android's personality, his only hope was that their measures continue to function just as flawlessly as the simulations predicted.

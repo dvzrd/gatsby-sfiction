@@ -1,8 +1,27 @@
-.user.links {
+.user.links.figure {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   max-width: 100%;
   padding: 0.83333em;
+}
+
+.user.link.figure .button {
+  margin-right: 0.5em;
+  padding: 0.25em 0.5em;
+  outline: none;
+  border: solid #00ccff;
+  background-color: #fff;
+  color: #00ccff;
+  font-family: 'Exo','Arial','sans-serif';
+  font-size: 75%;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 250ms ease;
+}
+
+.user.link.figure .button:hover {
+  background-color: #00ccff;
+  color: #fff;
 }

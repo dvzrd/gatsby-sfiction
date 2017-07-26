@@ -19,7 +19,7 @@ class UserLinks extends Component {
       return null;
     }
     return (
-      <figure className="user links">
+      <figure className="user links figure">
         { this.getLinkElements() }
       </figure>
     );
