@@ -8,7 +8,7 @@
 
 # Gatsby SFiction Blog
 
-A blog starter skeleton with advanced features for [Gatsby](https://github.com/gatsbyjs/gatsby/).
+A blog starter with advanced features for [Gatsby](https://github.com/gatsbyjs/gatsby/). Built on [Gatsby-Advanced-Starter](https://github.com/Vagr9K/gatsby-advanced-starter)
 
 ## Why?
 
