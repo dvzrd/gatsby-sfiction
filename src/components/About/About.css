@@ -16,7 +16,7 @@
 .about.figure .image {
   width: 100%;
   margin: 0;
-  margin-top: -0.2em;
+  margin-top: -0.45em;
 }
 
 @media only screen and (min-width: 48em) {
@@ -28,7 +28,6 @@
 
 .about.figure .description {
   margin: 0;
-  margin-top: 0.23333em;
 }
 
 @media only screen and (min-width: 48em) {

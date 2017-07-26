@@ -38,7 +38,7 @@ class Html extends Component {
           {this.props.headComponents}
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta name="description"
-                content="A blog for speculative/science fiction short stories" />
+                content="A collection of speculative fiction stories" />
           <link rel="icon" type="image/png" href={favicon} />
           <title>SFiction</title>
           <TypographyStyle typography={typography} />
