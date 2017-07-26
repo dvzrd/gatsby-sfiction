@@ -5,6 +5,7 @@ import Link from 'gatsby-link';
 import Disqus from '../components/Disqus/Disqus';
 import PostTags from '../components/PostTags/PostTags';
 import PostNavigation from '../components/PostNavigation/PostNavigation';
+import PostReadingTime from '../components/PostReadingTime/PostReadingTime';
 import SocialLinks from '../components/SocialLinks/SocialLinks';
 import SEO from '../components/SEO/SEO';
 import config from '../../data/SiteConfig';
@@ -46,6 +47,7 @@ export default class PostTemplate extends React.Component {
           <PostNavigation previous={post.previous} next={post.next} />
           <Disqus post={post} />
           <SocialLinks postPath={slug} postNode={postNode} />
+          <PostReadingTime time={postNode.timeToRead} />
         </div>
       </div>
 
