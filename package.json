@@ -1,6 +1,6 @@
 {
   "name": "gatsby-sfiction",
-  "description": "A fiction blog for speculative/science fiction short stories",
+  "description": "A collection of speculative fiction stories",
   "version": "1.0.0",
   "author": "Damir Vazgird <dvazgird@gmail.com>",
   "dependencies": {
